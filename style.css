@@ -12,7 +12,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .header {
@@ -33,9 +33,13 @@
     display: grid;
 
     grid-column: 2 / 3;
-    grid-row: 2 / 5;
-
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
 
     background-color: yellow;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
 }
