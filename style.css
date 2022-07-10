@@ -65,20 +65,42 @@ img {
 }
 
 /* Header */
+.header-input-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px;
+    align-items: center;
+}
+
+.search-field {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.notification-field {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-items: end;
+}
+
 .header-profile-row {
     display: grid;
     grid-column: 1fr 1fr;
     grid-row: 2 / 3;
+    align-items: center;
 }
 
 .profile-section {
     display: grid;
     grid-template-columns: auto 1fr;
+    
 }
 
 .buttons {
+    display: grid;
     grid-column: 2 / 3;
-    /* grid-row: 2 / 3; */
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
 }
 
 /* Articles */
