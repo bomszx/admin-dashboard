@@ -1,57 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
-    --main-color: #e0f2fe;
-
-    background-color: var(--main-color);
-}
-
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 300px 3fr;
-    grid-template-rows: 200px 1fr;
-}
-
-.header {
-    background-color: bisque;
-    grid-column: 2 / 3;
-}
-
-.side-bar {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-
-    background-color: yellow;
-}
-
-
-
-.main-content {
-    grid-column: 2 / 3;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    background-color: brown;
-
-
-}
-
-.projects {
-    display: grid;
-    background-color: darkmagenta;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.announcements {
-    grid-column: 2 / 3;
-    background-color: darkgreen;
-}
-
-.trending {
-    background-color: darkcyan;
+    --light-cornflower-blue: #8ecae6ff;
+    --blue-green: #219ebcff;
+    --prussian-blue: #023047ff;
+    --selective-yellow: #ffb703ff;
+    --tangerine: #fb8500ff;
 }
