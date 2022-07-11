@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
    <div class="main-container">
@@ -22,7 +22,7 @@
         </div>
 
         <div class="notification-field">
-            <div class="svg-icon">
+            <div class="svg-icon" id="notification-field">
                 <img src="./images/svg-icons/bell-ring-outline.svg" alt="bell">
             </div>
             <div class="img-avatar" id="robo-1">
@@ -182,26 +182,39 @@
     </main>
 
     <nav>
-        <div class="nav-logo">
-            <h1>Dashboard</h1>
+        <div class="logo">
+            <img src="./images/svg-icons/face-man-outline.svg" alt="home">
+            <h1>Roboard</h1>
         </div>
 
-        <div class="nav-nav-links">
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+        <div class="navigation">
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <img src="./images/svg-icons/home.svg" alt="home">Home
+                </li>
+                <li class="nav-link">
+                    <img src="./images/svg-icons/card-account-details.svg" alt="profile">Profile
+                </li>
+                <li class="nav-link">
+                    <img src="./images/svg-icons/message.svg" alt="message">Messages
+                </li>
+                <li class="nav-link">
+                    <img src="./images/svg-icons/history.svg" alt="history">History
+                </li>
+                <li class="nav-link">
+                    <img src="./images/svg-icons/file-document-outline.svg" alt="document">Tasks
+                </li>
+                <li class="nav-link">
+                    <img src="./images/svg-icons/account-multiple.svg" alt="multiple">Communities
+                </li>
             </ul>
         </div>
 
         <div class="nav-support-links">
             <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><img src="./images/svg-icons/cog-outline.svg" alt=""> Settings</li>
+                <li><img src="./images/svg-icons/help-box.svg" alt=""> Support</li>
+                <li><img src="./images/svg-icons/shield-alert-outline.svg" alt=""> Privacy</li>
             </ul>
         </div>
     </nav>
