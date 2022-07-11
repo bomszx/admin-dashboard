@@ -143,23 +143,36 @@ button {
 /* Nav */
 nav {
     grid-template-rows: auto auto 1fr;
-    grid-gap: 2rem;
+    grid-gap: 3rem;
 }
 
 .logo {
     display: grid;
     align-items: center;
     grid-template-columns: auto 1fr;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.navigation, .support-navigation li {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .navigation {
     grid-row: 2 / 3;
 }
 
+.nav-links {
+    display: grid;
+    gap: 1rem;
+}
+
 .nav-link {
     display: grid;
     grid-template-columns: repeat(2, 30px);
     align-items: center;
+    grid-gap: .5rem;
 }
 
 
