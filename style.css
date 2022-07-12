@@ -112,7 +112,9 @@ input {
     grid-template-columns: auto 1fr;
     align-items: center;
     margin: 0 2rem;
+    margin-bottom: 1rem;
     gap: .5rem;   
+
 }
 
 #profile-section img {
@@ -128,6 +130,7 @@ input {
     justify-content: center;
     gap: 2rem;
     margin: 0 2rem;
+    margin-bottom: 1rem;
     overflow: hidden;
 }
 
